@@ -578,7 +578,7 @@ async def back_to_main_menu(client, callback_query):
     
     await callback_query.message.edit_media(
       InputMediaPhoto(
-        media="https://envs.sh/GVI.jpg",
+        media="https://files.catbox.moe/a4000w.jpg",
         caption=caption
       ),
       reply_markup=keyboard
